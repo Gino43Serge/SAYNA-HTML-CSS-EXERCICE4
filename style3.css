@@ -1,0 +1,603 @@
+font-face {
+    font-family: 'far_from_homecomingregular';
+    src: url(Assets/police/Far-From-Homecoming-Updated.otf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Assets/police/Montserrat-Italic-VariableFont_wght.ttf");
+    src: url("Assets/police/Montserrat-VariableFont_wght.ttf");
+}
+
+body
+{
+    margin:0;
+}
+
+/*en tête*/
+
+.header-nav
+{
+    background-color:#114C92;
+}
+
+.container
+{
+    width:80%;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;   
+}
+
+.brand
+{
+    width: 25%;
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+}
+
+header nav
+{
+    width:60%;
+}
+
+header nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.branding2
+{
+    position: relative;
+    top : 5px;
+}
+
+/* Un héros*/
+
+.header-heros
+{
+    display: flex;
+    background: url("Assets/Illustration/img19.png") ;
+    justify-content: space-between;
+}
+
+.un-heros
+{
+    color:white;
+    padding-left: 10%;
+    padding-top: 12.5%;
+}
+
+header h1
+{
+    font-size: 75px;
+    text-transform: uppercase;
+    font-family:'Far From Homecoming';
+}
+
+.un-heros p
+{
+    font-size:20px;
+    font-family: 'Montserrat';
+}
+
+/* valeurs à défendre*/
+
+.valeurs
+{
+    display: flex;
+    padding-top: 7.5%;
+    padding-left: 10%;
+    background-color: #114C92;
+    justify-content: space-around;
+}
+
+.valeurs-a-defendre
+{
+    margin:0;
+    width: 50%;
+    color: white;
+    padding-bottom: 5%;
+}
+
+ h2
+{
+    margin:0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:'Far From Homecoming';
+   
+}
+
+.vidéo
+{
+  
+    height: 50%;
+    margin-top: 7.5%;
+    background-color: white;
+}
+/*des fondations solides*/
+.solides
+{
+    color: white;
+    height: 350px;
+    padding-left:10%;
+    padding-top: 7.5%;
+    background: url("Assets/Illustration/img20.png");
+}
+.fondations
+{
+    color: white;
+    background-color: #114C92;
+}
+
+.force
+{
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+   
+}
+
+.force p
+{
+    padding-top: 25px;
+    padding-right:10px;
+    text-align: justify;
+}
+
+.force-surhumaines,.paragraphe2
+{
+    width:50%;
+}
+.Des-meilleurs-amis
+{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    justify-content: space-evenly;
+}
+
+.image1
+{
+    left:0;
+    width:60%;
+    z-index: 1;
+    position: absolute;
+}
+.image2
+{
+    width:60%;
+    z-index: 2;
+    left:200px;
+    bottom: -25px;
+    position: absolute;
+   
+}
+.amis,.amis2
+{
+    width:50%;
+}
+
+.amis
+{
+    position:relative
+}
+
+.amis2
+{
+    padding-top: 30px;
+}
+
+.MJ
+{
+    width: 50%;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+h3 
+{
+    margin:0;
+}
+
+.petites-amies
+{
+    display: flex;
+}
+
+.photo-MJ
+{
+    justify-content: center;
+}
+
+.Gwen
+{
+    padding-left: 20%;
+}
+
+/*Avengers*/
+
+.Avengers
+{
+    display:flex;
+    color:white;
+    padding-left: 10%;
+    background-color:#B11313;
+}
+
+.histoires
+{
+    width:50%;
+}
+
+.images
+{
+    width:100%;
+}
+
+.image11,.image12,.image3,.image4,.image5,.image6
+{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.images p
+{
+    margin: 0;
+}
+
+.image3
+{
+    clear:both
+}
+
+.story
+{
+    width:50%;
+    height:30%;
+    float:right;
+    padding-right: 35px;
+    text-align: justify;
+}
+
+.images h2
+{
+    padding-top:30px;
+    padding-bottom: 40px;
+}
+
+/*Un univers hyper riche*/
+.Univers
+{
+    color: white;
+    padding-bottom :10%;
+    background: url("Assets/Illustration/img33.png");
+}
+
+.fond-bleu
+{
+    width :30%;
+    margin-left: 60%;
+    margin-right: 10%;
+    background-color: rgba(30,144,255,0.5);
+}
+
+    /*footer*/
+
+    footer
+    {
+        color: #FFFFFF;
+        padding-top: 2.5%;
+        background-color:#000000 ;
+    }
+    
+    footer .foot-up
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer .foot-up .ul1
+    {
+        width:25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .foot-up .ul2
+    {
+        width:10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .foot-up .branding
+    {
+        display:flex;
+    }
+    
+    footer .foot-up li
+    {
+        list-style-type: none;
+    }
+    
+    footer .foot-up a
+    {
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    
+    select
+    {
+        color:white;
+        border-radius: 15px;
+        margin: 5% 5% 5% 5%;
+        background-color:#114C92;
+    }
+    .reseau-social
+    {
+        padding-top:2%;
+        padding-bottom:2%;
+    }
+    
+    .reseau-social img
+    {
+        border-radius: 20px;
+        background-color:#114C92;
+    }
+    .foot-bottom
+    {
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    footer .branding2
+    {
+        position: relative;
+        top : 15px;
+    }
+   
+
+
+/*responsive avec les media querries*/
+
+@media (max-width:760px)
+{
+    /*en tête*/
+
+    header nav ul
+    {
+        width:15%;
+        padding-left: 90%;
+        color: #FFFFFF;
+        list-style-type:disc;
+    }
+  
+    header nav a
+    {
+        display:none;
+    }
+
+    .brand
+    {
+        width:60%;
+        padding-bottom: 2.5%;
+    }
+
+    .branding img
+    {
+        height: 100%;
+        width:100%;
+    }
+
+    .branding2 img 
+    {
+        height:30%;
+        width : 100%;
+    } 
+
+    .branding3 img
+    {
+        height: 100%;
+        width:100%;
+    }
+
+    /*Un héros*/
+
+    .un-heros
+    {
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    .un-heros h1
+    {
+        font-size:35px;
+        width: 250px;
+        margin-top:5px;
+        margin-bottom: 0;
+    }
+    .photo
+    {
+        width:200px;
+    }
+    .photo img 
+    {
+        width :350px;
+    }
+    .la-toile p 
+    {
+        margin: 0;
+    }
+
+    /*Des valeurs à défendre*/
+
+    .valeurs
+    {
+        display: flex;
+        text-align: center;
+        padding-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .valeurs-a-defendre
+    {
+        width:80%;
+    }
+    .vidéo
+    {
+        width:80%;
+    }
+
+    /*des fondationssolides*/
+    .force
+    {
+        display: flex;
+        text-align: center;
+        padding-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .force-surhumaines ,.paragraphe2 
+    {
+        width:100%;
+    }
+
+    .force-surhumaines p ,.paragraphe2 p 
+    {
+        text-align: justify;
+    }
+
+    .Des-meilleurs-amis,.amis2
+    {
+        display: flex;
+        text-align: center;
+        padding-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .amis,.amis2
+    {
+        width:100%;
+    }
+
+    .Des-meilleurs-amis h2
+    {
+        width:80%;
+        text-align: justify;
+    }
+    .image1
+    {
+   
+        width:60%;
+        padding: 2.5%;
+        position: relative;
+    }
+
+    .image2
+    {
+        
+        width:60%;
+        position: relative;
+        padding-right: 500px;
+    }
+    .petites-amies
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .photo-MJ
+    {
+        order:1;
+    }
+
+    .MJ
+    {
+        width:80%;
+        order:2;
+        text-align: justify;
+    }
+
+    .MJ h2
+    {
+        text-align: center;
+        width:80%;
+    }
+
+    .Gwen,.MaryJ,.Stacy   
+    {
+        width:25%;
+        padding-left:10px;
+    }
+
+    .Avengers,.Univers
+    {
+        display: none;
+    }
+
+    /*footer*/
+
+    .foot-up,.foot-bottom
+    {
+        display: flex;
+        padding-left: 10%;
+        padding-bottom: 10%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .ul1,.ul2
+    {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .ul1
+    {
+        order:1;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .ul2
+    {
+        order:2;
+        margin-top:0;
+        padding-left: 0;
+    }
+
+    .branding 
+    {
+        order:3;
+        display: flex;
+        justify-content: center;
+    }
+    
+    form 
+    {
+        width:25%;
+        margin-right: 10%;
+        padding-left :70%;
+    }
+
+    .reseau-social img 
+    {
+        width:40px;
+        filter: contrast(50%);    
+    }
+

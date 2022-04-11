@@ -1,0 +1,366 @@
+
+@font-face {
+    font-family: 'far_from_homecomingregular';
+    src: url(Assets/police/Far-From-Homecoming-Updated.otf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Assets/police/Montserrat-Italic-VariableFont_wght.ttf");
+    src: url("Assets/police/Montserrat-VariableFont_wght.ttf");
+}
+
+body
+{
+    margin:0;
+}
+
+/*en tête*/
+
+.header-nav
+{
+    background: #F1C530;
+}
+
+.container
+{
+    width:80%;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;  
+}
+
+.brand
+{
+    width: 25%;
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+}
+
+header nav
+{
+    width:60%;
+}
+
+header nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.branding2
+{
+    top : 5px;
+    position: relative;
+}
+
+/* Super vilain*/
+
+.header-vilain
+{
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: space-between;
+    background:url("Assets/Illustration/img7.png");
+}
+
+.super-vilain
+{
+    color:white;
+    padding-left: 10%;
+    padding-top: 12.5%;
+}
+
+header h1
+{
+    font-size: 90px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family:'Far From Homecoming';
+}
+
+.super-vilain p
+{
+    margin-top: 0;
+    font-size:35px;
+    font-family: 'Montserrat';
+}
+
+/*détail despersonnages*/
+
+.détail
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color:#F1C530;
+    justify-content: space-between;
+}
+
+.détail2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Carredine,.Bouffon-vert,.Octopus,.Bouffon-vert2,.Homme-sable,.Venom,.Lezard,.Vautour,.Mysterio,.Electro,.Rhino
+{
+    width:23%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.Carredine img,.Bouffon-vert img,.Octopus img,.Bouffon-vert2 img,.Homme-sable img,.Venom img,.Lezard img,.Electro img,.Mysterio img,.Rhino img,.Vautour img
+{
+    width:100%;
+    height:170px;
+}
+
+.vilain1,.vilain2,.vilain3,.vilain4,.vilain5,.vilain6,.vilain7,.vilain8,.vilain9,.vilain10,.vilain11
+{
+    border-left: 8px solid;
+    border-right:8px solid;
+    border-bottom: 8px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.vilain1 p,.vilain2 p,.vilain3 p,.vilain4 p,.vilain5 p,.vilain6 p,.vilain7 p,.vilain8 p,.vilain9 p,.vilain10 p,.vilain11 p
+{
+  
+    margin-top:0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+h3
+{
+    margin:0;
+    text-align: center;
+}
+
+/*footer*/
+
+footer
+{
+    color: #FFFFFF;
+    padding-top: 2.5%;
+    background-color:#000000 ;
+}
+
+footer .foot-up
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .foot-up .ul1
+{
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-up .ul2
+{
+    width:10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-up .branding
+{
+    display:flex;
+}
+
+footer .foot-up li
+{
+    list-style-type: none;
+}
+
+footer .foot-up a
+{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+select
+{
+    color:white;
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    background-color:#F1C530;
+}
+
+.reseau-social
+{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.reseau-social img
+{
+    background-color:#F1C530;
+    border-radius: 20px;
+}
+
+.foot-bottom
+{
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+footer .branding2
+{
+    top : 15px;
+    position: relative;
+}
+
+/*responsive*/
+
+@media (max-width:760px)
+{
+    /*en tete*/
+    header nav ul
+    {
+        width:15%;
+        color: #FFFFFF;
+        padding-left: 90%;
+        list-style-type:disc;
+    }
+
+   header nav a
+    {
+        display:none;
+    }
+
+    .brand
+    {
+        width:60%;
+        padding-bottom: 2.5%;
+    }
+
+    .branding img,.branding3 img
+    {
+        width:100%;
+        height:100%;   
+    }
+
+    .branding2 img 
+    {
+        height:30%;
+        width : 100%;
+    }    
+
+    .header-nav
+    {
+        background-color:transparent
+    }
+
+    /*super vilains*/
+    .head
+    {
+        padding-bottom: 10%;
+        background-size: 760px;
+        background:url("Assets/Illustration/img7.png") no-repeat;   
+    }
+
+    .header-vilain
+    {
+        padding: 0;
+        background: transparent;
+    }
+
+    .header-vilain h1
+    {
+        font-size:35px;
+        width: 350px;
+        margin: 0;
+    }
+
+    .header-vilain p 
+    {
+        font-size:15px;
+        margin: 0;
+        width:450px;
+    }
+
+    /* fiche*/
+
+    .détail,.détail2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Carredine,.Bouffon-vert,.Octopus,.Bouffon-vert2,.Homme-sable,.Venom,.Lezard,.Vautour,.Mysterio,.Electro,.Rhino
+    {
+        width:75%;
+        padding-bottom:10%;
+        padding-left: 12.5%;
+        padding-right: 12.5%; 
+    }
+
+     /*footer*/
+
+     .foot-up,.foot-bottom
+     {
+         display: flex;
+         padding-left: 10%;
+         padding-bottom: 10%;
+         flex-direction: column;
+         justify-content: flex-start;
+     }
+
+     .ul1,.ul2
+     {
+        display: flex;
+        flex-direction: column;
+     }
+ 
+     .ul1
+     {
+         order:1;
+         margin: 0;
+         padding-left: 0;
+     }
+ 
+     .ul2
+     {
+         order:2;
+         margin-top:0;
+         padding-left: 0;   
+     }
+ 
+     .branding 
+     {
+        order:3; 
+        display: flex;
+        justify-content: center;
+     }
+
+     form 
+     {
+        width:25%;
+        margin-right: 10%;
+        padding-left :70%;
+     }
+ 
+     .reseau-social img 
+     {
+         width:40px;
+         filter: contrast(50%);        
+     }
+ 

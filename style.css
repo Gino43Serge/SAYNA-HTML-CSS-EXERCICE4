@@ -1,0 +1,440 @@
+
+@font-face {
+    font-family: 'far_from_homecomingregular';
+    src: url(Assets/police/Far-From-Homecoming-Updated.otf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Assets/police/Montserrat-Italic-VariableFont_wght.ttf");
+    src: url("Assets/police/Montserrat-VariableFont_wght.ttf")
+}
+body
+{
+    margin:0;
+}
+/*en tête*/
+.header-nav
+{
+    background-color:#B11313 ;
+}
+.container
+{
+    width:80%;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+   
+}
+.brand
+{
+    width: 25%;
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+}
+header nav
+{
+    width:60%;
+}
+header nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+header nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.branding2
+{
+    position: relative;
+    top : 5px;
+}
+
+/* la toile*/
+.header-latoile
+{
+    display: flex;
+    background-color:#F1C530 ;
+    justify-content: space-between;
+}
+.la-toile
+{
+    color:white;
+    padding-left: 10%;
+    padding-top: 12.5%;
+}
+header h1
+{
+    font-size: 75px;
+    text-transform: uppercase;
+    font-family:'Far From Homecoming';
+}
+.la-toile p
+{
+    font-size:20px;
+    font-family: 'Montserrat';
+}
+.photo
+{
+    transform: rotateZ(180deg)rotateX(180deg);
+}
+
+/*la petite antenne*/
+.petite-antenne
+{
+    display: flex;
+    color:#FFFFFF;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 7.5%;
+    background-color:#B11313;
+    justify-content: space-between;
+}
+
+.petite-antenne h2
+{
+    margin:0;
+    padding-top :10%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-family:'Far From Homecoming';
+}
+
+.petite-antenne p
+{
+    margin: 0;
+}
+.antenne img
+{
+    padding-top: 10%;
+}
+
+.message
+{
+    padding-top: 15%;
+    position: relative;
+}
+input
+{
+    width:100% ;
+    color: white;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    padding: 5px 10px 5px 5px;
+    background-color:#B11313;
+}
+
+textarea
+{
+    width:100%;
+    height: 50px;
+    color:white;
+    border-radius: 15px;
+    padding: 5px 5px 50px 0;
+    background-color: #B11313;
+}
+
+.message button
+{
+    color:white;
+    margin-top:10%;
+    margin-left: 25%;
+    border-radius: 15px;
+    background-color: #B11313;
+    padding: 15px 45px 15px 45px;
+}
+
+/* Sayna x Marvel*/
+.saynaxmarvel
+{
+    color:white;
+    padding-left: 10%;  
+    padding-right: 10%;
+    background-color:#114C92;
+}
+
+.saynaxmarvel h2
+{
+    margin:0;
+    padding-top:5%;
+    padding-bottom:2.5%;
+    font-family:'Far From Homecoming';
+}
+
+.paragraphe
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.paragraphe1 
+{
+    width:50%;
+    margin:0;
+}
+
+.paragraphe2
+{
+    width: 45%;
+}
+
+.saynaxmarvel p
+{
+    text-align: justify;
+}
+
+.reseau
+{
+    padding-top:5%;
+}
+
+.reseau button
+{
+    color:white;
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    background-color: #114C92;
+    padding: 15px 45px 15px 45px;
+}
+
+/*footer*/
+footer
+{
+    color: #FFFFFF;
+    padding-top: 4%;
+    background-color:#000000 ;
+}
+
+footer .foot-up
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .foot-up .ul1
+{
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-up .ul2
+{
+    width:10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-up .branding
+{
+    display:flex;
+}
+
+footer .foot-up li
+{
+    list-style-type: none;
+}
+
+footer .foot-up a
+{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+select
+{
+    color:white;
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    background-color: #B11313;
+}
+.reseau-social
+{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.reseau-social img
+{
+    background-color:#B11313;
+    border-radius: 20px;
+}
+.foot-bottom
+{
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+footer .branding2
+{
+    top : 15px;
+    position: relative;
+}
+
+/*responsive avec les media querries*/
+
+@media (max-width:760px)
+{
+    /*en tête*/
+    header nav ul
+    {
+        width:15%;
+        color: #FFFFFF;
+        padding-left: 90%;
+        list-style-type:disc;
+    }
+    header nav a
+    {
+        display:none;
+    }
+    .brand
+    {
+        width:60%;
+        padding-bottom: 2.5%;
+    }
+    .branding img
+    {
+        width:100%;
+        height: 100%;
+    }
+    .branding2 img 
+    {
+        height:30%;
+        width : 100%;
+    }    
+    .branding3 img
+    {
+        width:100%;
+        height: 100%;
+    }
+
+    /*la toile*/
+    .la-toile
+    {
+        padding-top: 5%;
+    }
+    .la-toile h1
+    {
+        width: 250px;
+        margin-top:5px;
+        font-size:35px;
+        margin-bottom: 0;
+    }
+    .photo
+    {
+        width:200px;
+    }
+    .photo img 
+    {
+        width :350px;
+    }
+    .la-toile p 
+    {
+        margin: 0;
+    }
+
+    /*la petite antenne*/
+
+    .petite-antenne
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .message textarea
+    {
+        margin-bottom: 15px;
+    }
+
+    .message button 
+    {
+        margin: 0;
+        color: #B11313;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+    .saynaxmarvel h2
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+    .paragraphe
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    .paragraphe1, .paragraphe2
+    {
+        width: 100%;
+        height:102%;
+    }
+
+    .reseau button 
+    {
+        width:45%;
+        margin-left:0;
+        margin-right:0;
+        border-radius: 20px;
+    }
+    .saynaxmarvel p,ul
+    {
+    text-align: center;
+    }
+    
+      /*footer*/
+      .foot-up,.foot-bottom
+      {
+          display: flex;
+          padding-left: 10%;
+          padding-bottom: 10%;
+          flex-direction: column;
+          justify-content: flex-start;
+      }
+  
+      .ul1,.ul2
+      {
+      display: flex;
+      flex-direction: column;
+      }
+  
+      .ul1
+      {
+          order:1;
+          width:500px;
+          margin-top: 0;
+          padding-left: 0;
+          margin-bottom: 0;
+      }
+  
+      .ul2
+      {
+          order:2;
+          margin-top:0;
+          padding-left: 0;
+      }
+  
+      .branding 
+      {
+          order:3;
+          display: flex;
+          justify-content: center;
+          
+      }
+      .footup form 
+      {
+          width:25%;
+          margin-right: 10%;
+          padding-left :70%;
+      }
+  
+      .reseau-social img 
+      {
+          width:40px;
+          filter: contrast(50%);
+      }
+  
+  
